@@ -1,4 +1,5 @@
 # Today I Learn (TIL)
-1. Web 부분 공부 기록! 💻
-2. 꾸준히 개발 공부를 할 것! 🐬
-3. 시험 전 주~ 시험 주 2주간은 시험 공부🔥🔥 TIL 🙅‍♂️
+- Web (frontend) 학습 노트 입니다. 📝
+- `HTML`, `CSS`, `JavaScript`를 학습할 계획입니다! 😙
+- Do my best!!🔥
+
