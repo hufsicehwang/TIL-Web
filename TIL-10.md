@@ -66,7 +66,8 @@ ex) <input type="some thing">
 - fieldset: 겉 테두리 만들어 줌
 - legend: 제목 즉, coffee size 부분에 해당함
 
-# select, datalist, optgroup, option 태그
+# select, option, optgroup 태그
+: 체크박스가 아닌 여러가지 선택창을 만들 수 있다.
 ```html
   <select>
   <optgroup label="Coffee">
@@ -86,7 +87,26 @@ ex) <input type="some thing">
   </optgroup>
 </select>
 ```
+- select: 옵션을 선택하는 메뉴, 가장 큰 테두리
+- option: 선택창에서 index 역할, 즉 선택지를 지정할 수 있음
+- optgroup: option을 특정 group으로 묶을 수 있음
 
+# datalist 태그
+```html
+<input type="text" list="fruits">
 
+<datalist id="fruits">
+  <option>Apple</option>
+  <option>Orange</option>
+  <option>Banana</option>
+  <option>Mango</option>
+  <option>Fineapple</option>
+</datalist>
+```
+- input 태그를 text 타입으로 지정해 text를 삽입 할 수 있는 박스 설정
+- datalist의 `id`와 input의 `list`를 같은 이름으로 연동함
+- text 박스를 클릭하면 datalist의 내용들이 자동 완성 되는 기능을 제공
 
+# progress
+: 작업의 완료 진행률을 표시 (로딩 바)
 
