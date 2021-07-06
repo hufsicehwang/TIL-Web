@@ -41,3 +41,29 @@ ex) 쇼핑몰의 광고 베너 등등..
 ```
 - `transition : width 1s` = `transition-property :width; ,  transition-during:1s` 
 - __가상 선택자와 짝으로 사용시 애니메이션 기능으로 사용 가능!!!!!__
+
+# 이동 (transform)
+```css
+.box{
+  width: 100px;
+  height: 100px
+  background:tomato;
+  transition: 1s;  // 1초동안
+  
+.box:hover{
+  transform: translate(30px,30px)    // 마우스 올리면 해당 위치로 이동함
+}
+```
+
+# 크기 (transform)
+```css
+.box{
+  width: 100px;
+  height: 100px
+  background:tomato;
+  transition: 1s;  // 1초동안
+  
+.box:hover{
+  transform: scale(2)    // 마우스 올리면 2배로 늘어남 
+  }
+```
