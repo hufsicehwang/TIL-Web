@@ -37,3 +37,4 @@ border: 1px solid red
 - 색상 속성의 값 : transparent (투명한 실선)
 
 
+ 
