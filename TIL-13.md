@@ -38,5 +38,5 @@ border-radius: 10px // 모서리 깍임
 - 색상 속성의 값 : transparent (투명한 실선)
 
 # box -shadow
-: 그림자 만들어주는 
+: 그림자 만들어주는 속성
  
