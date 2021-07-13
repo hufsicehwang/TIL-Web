@@ -29,7 +29,7 @@
     content: "";
     display: block;
     clear: both;
-}
+}    
 ```
 얘를 하고 `1. HTML 클래스에 clearfix 추가` , `2. css 선택자 안에 float: left;` 하면 수평으로 보이게 만들 수 있음
 
